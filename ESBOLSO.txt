@@ -1,0 +1,67 @@
+ESBOLSO
+https://kondado.com.br/blog/blog/2020/11/09/be-a-ba-do-sql-filtrando-valores-com-o-where/
+https://pt.stackoverflow.com/questions/319376/ordenar-um-select-em-mysql-por-uma-letra
+
+BUSCAR POR NOME CLIENTE, 
+BUSCAR POR DATADOPEDIDO
+--------------------------
+Novo pedido
+ok | border 0 
+ok | cor do table.tabform = background-color: #D2D3D5;
+	| CRIAR TABELA - INSERIR - E MOSTRAR O SELECT
+	| PEGAR O SELECT E FORMATAR PARA IMPRESSÃO
+ok	|usar sempre os pontos nos numeros
+------------------------
+PAINEL PRINCIPAL
+
+Novo pedido -> inserir
+Pedidos feitos -> consultar
+Produção -> lista de tarefas
+Artes -> lista de tarefas
+Estoque ->inserir /Excluir / consultar
+Estatistica -> consultar
+
+-------------------------
+campos obrigatórios
+
+Data do Pedido
+Aprovação
+Entrega
+horário
+
+
+////////////NOVO PEDIDO
+Data do Pedido
+Aprovação
+Entrega
+horário
+Funcionário
+Cliente
+Contato
+Email:
+Arquivo Salvo em:
+
+quantidade1
+discriminacao1
+valorunitario2
+valortotal3
+
+Quantidade 
+Produto
+Valor unitario
+Valor Total
+
+TOTAL
+sinal
+resta
+---------------------------------
+Botão (GERAR O.S)
+---------------------------------
+___________________________________________
+
+Enviar formulario e pesquisar por nome do cliente / id/ data
+A pagina de imprimir será uma busca select where
+
+PEDIDOS FEITOS //////////////////////////
+
+busca select where /cliente / id/ data/, e ver nota.

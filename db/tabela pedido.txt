@@ -1,0 +1,58 @@
+CREATE TABLE `sistema`.`pedido` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `datadopedido` DATE NOT NULL , `aprovacao` DATE NOT NULL , `entrega` DATE NOT NULL , `funcionario` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `cliente` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `contato` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `email` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `arquivosalvoem` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+
+
+`quantidade1` INT(50) NOT NULL , 
+`discriminacao1` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario1` INT(50) NOT NULL , 
+`valortotal1` INT(50) NOT NULL , 
+
+`quantidade2` INT(50) NOT NULL , 
+`discriminacao2` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario2` INT(50) NOT NULL , 
+`valortotal2` INT(50) NOT NULL , 
+
+`quantidade3` INT(50) NOT NULL , 
+`discriminacao3` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario3` INT(50) NOT NULL , 
+`valortotal3` INT(50) NOT NULL , 
+
+`quantidade4` INT(50) NOT NULL , 
+`discriminacao4` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario4` INT(50) NOT NULL , 
+`valortotal4` INT(50) NOT NULL , 
+
+`quantidade5` INT(50) NOT NULL , 
+`discriminacao5` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario5` INT(50) NOT NULL , 
+`valortotal5` INT(50) NOT NULL , 
+
+`quantidade6` INT(50) NOT NULL , 
+`discriminacao6` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario6` INT(50) NOT NULL , 
+`valortotal6` INT(50) NOT NULL , 
+
+`quantidade7` INT(50) NOT NULL , 
+`discriminacao7` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario7` INT(50) NOT NULL , 
+`valortotal7` INT(50) NOT NULL , 
+
+`quantidade8` INT(50) NOT NULL , 
+`discriminacao8` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario8` INT(50) NOT NULL , 
+`valortotal8` INT(50) NOT NULL , 
+
+`quantidade9` INT(50) NOT NULL , 
+`discriminacao9` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario9` INT(50) NOT NULL , 
+`valortotal9` INT(50) NOT NULL , 
+
+`quantidade10` INT(50) NOT NULL , 
+`discriminacao10` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`valorunitario10` INT(50) NOT NULL , 
+`valortotal10` INT(50) NOT NULL , 
+
+
+
+`total` INT(50) NOT NULL , 
+`sinal` INT(50) NOT NULL , 
+`resta` INT(50) NOT NULL , PRIMARY KEY (`id`(255))) ENGINE = MyISAM;

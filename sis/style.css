@@ -1,0 +1,63 @@
+/* INICIO */
+*{font-family: Arial;}
+body{
+    background-color: #d3d3d3;
+}
+#cabecalho{
+    width: 100%;
+    height: 100px;
+    background-image: url("img/cab.jpg");
+    background-size: cover; 
+}
+#logob{width: 100px; height:90px; float: left;}
+#usu{
+    float: right;
+}
+#nh{width: 100%; background-color: black; height: 50px;}
+#principal{
+    margin-top: 3%;
+    width: 60%;
+    height: 60%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0 0 1em #808080;
+ /*   align-items: center; */
+ overflow:hidden;
+}
+#bot{
+    width: 100%;
+    height: 60px;
+    background-color: #blue;
+    display: flex;
+}
+input.botao{
+    text-align: center;
+    overflow:hidden; width: 100%; height: 50px;
+    position: float;
+    display:inline-block;} 
+table.tabform {
+    background-color: #D2D3D5;
+}
+#produtos{background-color: blue; width:100%; height:200px; float:none;}
+#descricao{
+    width: 5013 px;
+    background-color: aquamarine;
+}
+/* LOGIN E CADASTRO*/
+.nome{
+    width: 200px;
+    height: 30px;
+
+}
+.senha{
+    width: 200px;
+    height: 30px;
+  
+}
+.entrar{width: 100px; height: 25px; margin-top: 10px;}
+#tabelaa{
+    justify-content: center;
+    flex-direction: row;
+}

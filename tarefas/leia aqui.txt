@@ -1,0 +1,1 @@
+insira o banco de dados e edite a config/conexão.php
